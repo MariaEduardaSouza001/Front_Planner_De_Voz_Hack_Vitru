@@ -15,6 +15,4 @@ Interface conversacional da assistente (Sofia / Edu), com troca de identidade vi
 - Composer com “Falar” (áudio), enviar e barra de ferramentas
 - Botão “Ouvir” com animação visual (preparado para TTS depois)
 
-## Integração futura
 
-As respostas da IA são demonstrativas. O ponto de conexão com o backend está marcado com `TODO` em `js/script.js`, principalmente em `receiveMessage()`.
