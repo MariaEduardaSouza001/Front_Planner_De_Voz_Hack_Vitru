@@ -1,20 +1,23 @@
 <div align="center">
 
-# 🎓 SOFIA & EDU — Chat Acadêmico Inteligente
+# SOFIA & EDU — Chat Acadêmico Inteligente
 
-> Assistente conversacional para planejamento de estudos, desenvolvida no **Hackathon Vitru Educação**
+**Assistente conversacional para planejamento de estudos**  
+Desenvolvida no **Hackathon Vitru Educação**
 
-[![Status](https://img.shields.io/badge/status-demo-yellow?style=flat-square)](.)
-[![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](.)
-[![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](.)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](.)
-[![License](https://img.shields.io/badge/licen%C3%A7a-MIT-green?style=flat-square)](.)
+<br/>
+
+[![Status](https://img.shields.io/badge/status-demo-yellow?style=for-the-badge)](.)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](.)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](.)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](.)
+[![License](https://img.shields.io/badge/licença-MIT-brightgreen?style=for-the-badge)](.)
 
 </div>
 
 ---
 
-## 📖 Sobre o Projeto
+## Sobre o Projeto
 
 **SOFIA & EDU** é o front-end de uma assistente acadêmica conversacional desenvolvida durante o Hackathon Vitru Educação. A aplicação permite que estudantes interajam com uma IA de planejamento de estudos por meio de chat, comandos de voz e sugestões inteligentes.
 
@@ -22,30 +25,32 @@ A solução contempla duas identidades visuais distintas:
 
 | Marca | Assistente | Tema |
 |-------|-----------|------|
-| **UNIASSELVI** | Sofia | Amarelo / Preto |
-| **UniCesumar** | Edu | Azul |
+| UNIASSELVI | Sofia | Amarelo / Preto |
+| UniCesumar | Edu | Azul |
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
-- 💬 **Chat conversacional** — envio de mensagens com digitação animada e scroll automático
-- 🎨 **Multi-brand** — alternância de tema, avatar e nome da assistente por instituição
-- 📚 **Plano de Estudos** — card interativo com checklist de tarefas, barra de progresso e reagendamento
-- 🏆 **Sistema de Recompensas** — acúmulo de pontos (+50 pts) ao concluir atividades
-- 🎤 **Gravação de Voz** — compositor com suporte a `MediaRecorder` para envio de áudio
-- 🔊 **Modo "Ouvir"** — animação de fala (integração com TTS preparada)
-- 📎 **Anexar Arquivo** — visualização do arquivo no chat (análise via IA planejada)
-- ⚡ **Quick Replies** — atalhos de resposta rápida para ações frequentes
-- 💾 **Persistência Local** — tema e pontos salvos via `localStorage`
-- ♿ **Acessibilidade** — suporte a navegação por teclado, skip link e atributos ARIA
+| Recurso | Descrição |
+|---------|-----------|
+| Chat conversacional | Envio de mensagens com digitação animada e scroll automático |
+| Multi-brand | Alternância de tema, avatar e nome da assistente por instituição |
+| Plano de Estudos | Card interativo com checklist de tarefas, barra de progresso e reagendamento |
+| Sistema de Recompensas | Acúmulo de pontos (+50 pts) ao concluir atividades |
+| Gravação de Voz | Compositor com suporte a `MediaRecorder` para envio de áudio |
+| Modo Ouvir | Animação de fala (integração com TTS preparada) |
+| Anexar Arquivo | Visualização do arquivo no chat (análise via IA planejada) |
+| Quick Replies | Atalhos de resposta rápida para ações frequentes |
+| Persistência Local | Tema e pontos salvos via `localStorage` |
+| Acessibilidade | Navegação por teclado, skip link e atributos ARIA |
 
 ---
 
-## 🗂️ Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
-Front_Planner_De_Voz_Hack_Vitru-main/
+Front_Planner_De_Voz_Hack_Vitru/
 ├── README.md
 └── sofia&Edu-chat/
     ├── index.html          # Entrada principal da aplicação
@@ -60,7 +65,7 @@ Front_Planner_De_Voz_Hack_Vitru-main/
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Camada | Tecnologia |
 |--------|-----------|
@@ -74,13 +79,13 @@ Front_Planner_De_Voz_Hack_Vitru-main/
 
 ---
 
-## 🚀 Como Rodar
+## Como Rodar
 
 ### Opção 1 — Abrir direto no navegador
 
 Abra o arquivo `sofia&Edu-chat/index.html` diretamente no seu browser.
 
-> ⚠️ Para usar o microfone, é necessário servir via `localhost` ou HTTPS (restrição do browser).
+> **Atenção:** Para usar o microfone, é necessário servir via `localhost` ou HTTPS (restrição do browser).
 
 ### Opção 2 — Live Server (recomendado)
 
@@ -104,23 +109,23 @@ Acesse: `http://localhost:8080`
 
 ---
 
-## 🔌 Integrações Planejadas
+## Integrações Planejadas
 
 O projeto foi estruturado para facilitar a integração futura com serviços de IA e backend:
 
 | Funcionalidade | Hook no código | Status |
 |---------------|---------------|--------|
-| Respostas da IA | `receiveMessage()` → `fetch("/api/sofia")` | 🔜 Planejado |
-| Text-to-Speech | Botão "Ouvir" → stream de áudio | 🔜 Planejado |
-| Transcrição de Voz | Envio do blob de áudio | 🔜 Planejado |
-| Análise de Arquivo | Upload + processamento | 🔜 Planejado |
-| Calendário | Exportação `.ics` / Google Calendar | 🔜 Planejado |
+| Respostas da IA | `receiveMessage()` → `fetch("/api/sofia")` | Planejado |
+| Text-to-Speech | Botão "Ouvir" → stream de áudio | Planejado |
+| Transcrição de Voz | Envio do blob de áudio | Planejado |
+| Análise de Arquivo | Upload + processamento | Planejado |
+| Calendário | Exportação `.ics` / Google Calendar | Planejado |
 
 > Atualmente, as respostas são geradas via correspondência de palavras-chave (`DEMO_REPLIES`) para fins de demonstração.
 
 ---
 
-## 🎯 Roadmap
+## Roadmap
 
 - [x] Interface de chat responsiva com dual-brand
 - [x] Plano de estudos interativo com checklist
@@ -135,18 +140,12 @@ O projeto foi estruturado para facilitar a integração futura com serviços de 
 
 ---
 
-## 👥 Equipe
+## Licença
 
-Desenvolvido durante o **Hackathon Vitru Educação**.
-
----
-
-## 📄 Licença
-
-Este projeto está sob a licença [MIT](https://opensource.org/licenses/MIT). Veja o arquivo `LICENSE` para mais detalhes.
+Este projeto está sob a licença [MIT](https://opensource.org/licenses/MIT).
 
 ---
 
 <div align="center">
-  Feito com ❤️ para o Hackathon Vitru Educação
+  Desenvolvido para o Hackathon Vitru Educação
 </div>
